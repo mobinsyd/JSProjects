@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish",sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:aquamarine;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: rgb(83, 246, 83);
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 10px 6px -6px #777; 
+
+}
+
+#tempCalci label{
+    font-size: 25px;
+
+}
+
+#temp{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+#tempDiff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+
+}
+
+[type="Submit"]{
+    width: 100px;
+    height: 35px;
+    margin: 20px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer{
+    font-size: 35px;
+}
