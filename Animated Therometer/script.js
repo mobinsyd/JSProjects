@@ -26,4 +26,7 @@ const tempload=()=>{
 
 }
 
+
+setInterval(tempload,5000);
+
 tempload();
