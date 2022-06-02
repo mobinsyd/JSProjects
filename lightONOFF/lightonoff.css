@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif ;
+    height: 100vh;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+.heading{
+    margin: 20px;
+
+}
+
+button{
+    display: inline-block;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    border-radius: 10px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 10px;
+    z-index: 10000;
+
+}
+
+img{
+   background:  rgb(34, 16, 200);
+   width: 100px;
+   height:100px; 
+}
