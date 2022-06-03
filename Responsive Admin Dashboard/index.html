@@ -80,20 +80,41 @@
                     <img src="img/user.jpg">
                 </div>
             </div>
+            
+            <!-- card -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,840</div>
+                        <div class="cardName">Daily Views</div>
+                    </div>
+                    <div class="iconBx">
+                        <ion-icon name="eye"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-
-
-
-
     </div>
     
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <script>
+        // menuToggle
+        let toggle=document.querySelector('.toggle');
+        let nav=document.querySelector('.nav');
+        let main=document.querySelector('.main');
+
+        toggle.onclick= function(){
+            nav.classList.toggle('active');
+            main.classList.toggle('active');
+
+        }
+
+
         // hovered class selected list item
-        const list=document.querySelectorAll('.nav li');
+        let list=document.querySelectorAll('.nav li');
         function activelink(){
             list.forEach((item)=>
                 item.classList.remove('hovered'));
