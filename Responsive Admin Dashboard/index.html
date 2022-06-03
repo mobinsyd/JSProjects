@@ -62,10 +62,45 @@
 
             </ul>
         </div>
+    <!-- main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+                <!-- search -->
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search Here">
+                        <ion-icon name="search"></ion-icon>
+                    </label>
+                </div>
+                <!-- userimg -->
+                <div class="user">
+                    <img src="img/user.jpg">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
     
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+        // hovered class selected list item
+        const list=document.querySelectorAll('.nav li');
+        function activelink(){
+            list.forEach((item)=>
+                item.classList.remove('hovered'));
+                this.classList.add('hovered'); 
+        }
+        list.forEach((item)=>
+        item.addEventListener('mouseover',activelink));
+    </script>
 </body>
 </html>
